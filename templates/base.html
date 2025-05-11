@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>LifeFlow</title>
+    <link rel="icon" href="img/flow.jpeg" type="image/png">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Início</a>
+        <a href="/tasks">Tarefas</a>
+        <a href="/notes">Notas</a>
+        <!--<a href="/clients">Clientes</a>-->
+        <!--<a href="/reminders">Lembretes</a>-->
+        {% if session['username'] %}
+            <span>👤 {{ session['username'] }}</span>
+            <a href="/logout">Sair</a>
+        {% else %}
+            <a href="/register">Entrar</a>
+        {% endif %}
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

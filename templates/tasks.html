@@ -1,0 +1,45 @@
+{# Estende o layout base (base.html), onde estão o cabeçalho, rodapé, etc. #}
+{% extends 'base.html' %}
+
+{# Define o conteúdo que será inserido no bloco 'content' da base.html #}
+{% block content %}
+
+<h2>Tarefas</h2>
+
+{# Formulário para adicionar uma nova tarefa (método POST) #}
+<form method="post">
+    {# Campo obrigatório para o título da tarefa #}
+    <input name="title" placeholder="Digite o nome da tarefa" required>
+    
+    {# Campo opcional para a descrição da tarefa #}
+    <input name="description" placeholder="Descrição da Tarefa">
+    
+    {# Campo opcional para a data de entrega, no formato AAAA-MM-DD #}
+    <input name="due_date" placeholder="prazo para (YYYY-MM-DD)">
+    
+    {# Botão para enviar o formulário #}
+    <button type="submit">Adicionar Tarefa</button>
+</form>
+
+{# Lista não ordenada que mostrará as tarefas existentes #}
+<ul>
+    {# Loop pelas tarefas recebidas do backend (ex: do banco de dados) #}
+    {% for t in tasks %}
+    <li>
+        {# t[1] = título, t[2] = descrição, t[3] = prazo, t[4] = status (completa ou não) #}
+        <strong>{{ t[1] }}</strong> - {{ t[2] }} | {{ t[3] }}
+        
+        {# Se a tarefa ainda não foi completada, mostra o botão de completar #}
+        {% if not t[4] %}
+            <a href="/complete_task/{{ t[0] }}">✔</a>  {# t[0] = ID da tarefa #}
+        {% else %}
+            ✅ {# Marca como concluída se já estiver finalizada #}
+        {% endif %}
+
+        {# Link para deletar a tarefa #}
+        <a href="/delete_task/{{ t[0] }}">🗑</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
