@@ -1,0 +1,65 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Gerenciador de Tarefas{% endblock %}</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon-32x32.png') }}" type="image/jpeg">
+
+    <style>
+        body {
+    background-image: url('/static/img/flow.jpeg');
+    background-size: cover;         /* Faz a imagem cobrir toda a tela */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Evita repetição da imagem */
+}
+
+    .importance-baixa {
+        background-color: #1eff00bb; /* verde claro */
+        color: #000000;
+        font-weight: bold;
+    }
+    .importance-média {
+        background-color: #ffc400; /* amarelo claro */
+        color: #000000;
+        font-weight: bold;
+    }
+    .importance-alta {
+        background-color: #ff0015; /* vermelho claro */
+        color: #000000;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/dashboard">HOME</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks">Minhas Tarefas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/notes">Anotações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">Sair da conta</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mt-4">
+    {% block content %}{% endblock %}
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer>
+    <center><p>&copy; 2025 Tarefas LifeFlow. Todos os direitos reservados.</p></center>
+</footer>
+</body>
+</html>
