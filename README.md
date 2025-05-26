@@ -107,8 +107,25 @@ Siga os passos abaixo para configurar e executar o LifeFlow em seu ambiente loca
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum bug, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Autores
+Nomes                         GIT
+* Felipe Titto de Siqueira    https://github.com/FelipeT1tto/ProjetoTarefa.git
+* Gabriel Nascimento de Souza https://github.com/GabrielNsZ/teste.git
+* Vinicius da Silva Cardoso   https://github.com/Blackoff-00
 
-* Felipe Titto de Siqueira
-* Gabriel Nascimento de Souza
-* Vinicius da Silva Cardoso
+* ## 🧠 Disciplinas Envolvidas    
+
+- Estrutura de Dados I
+- Teoria dos Grafos
+- Linguagens Formais e Autômatos
+
+- ## 🏫 Informações Acadêmicas
+
+- Universidade: **Universidade Braz Cubas**
+- Curso: **Ciência da Computação**
+- Semestre: 3º Semestre
+- Período: Noite
+- Professora orientadora: **Dra. Andréa Ono Sakai**
+- Evento: **Mostra de Tecnologia 1º Semestre de 2025**
+- Local: Laboratório 12
+- Datas: 05 e 06 de junho de 2025
 
