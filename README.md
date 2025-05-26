@@ -115,14 +115,13 @@ Nomes                         GIT
 * ## 🧠 Disciplinas Envolvidas    
 
 - Estrutura de Dados I
-- Teoria dos Grafos
-- Linguagens Formais e Autômatos
+- Banco de Dados
 
 - ## 🏫 Informações Acadêmicas
 
 - Universidade: **Universidade Braz Cubas**
 - Curso: **Ciência da Computação**
-- Semestre: 3º Semestre
+- Semestre: 3º Semestre/2ºSemestre
 - Período: Noite
 - Professora orientadora: **Dra. Andréa Ono Sakai**
 - Evento: **Mostra de Tecnologia 1º Semestre de 2025**
