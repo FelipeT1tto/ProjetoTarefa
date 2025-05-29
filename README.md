@@ -102,29 +102,41 @@ Siga os passos abaixo para configurar e executar o LifeFlow em seu ambiente loca
 5.  **Acesse o aplicativo:**
     Abra seu navegador e acesse `http://127.0.0.1:5000/`.
 
+    **Faça o login**
+
+    ![Tela de login](https://github.com/FelipeT1tto/ProjetoTarefa/blob/main/foto1.PNG?raw=true)
+
+    **Adicione edite, salve e exclua Tarefas**
+    
+     ![Tela principal de tarefas](https://github.com/FelipeT1tto/ProjetoTarefa/blob/main/foto%202.PNG?raw=true)
+
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum bug, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Autores
 Nomes                         GIT
-* Felipe Titto de Siqueira    https://github.com/FelipeT1tto/ProjetoTarefa.git
-* Gabriel Nascimento de Souza https://github.com/GabrielNsZ/teste.git
+* Felipe Titto de Siqueira    https://github.com/FelipeT1tto
+* Gabriel Nascimento de Souza https://github.com/GabrielNsZ
 * Vinicius da Silva Cardoso   https://github.com/Blackoff-00
 
 * ## 🧠 Disciplinas Envolvidas    
 
 - Estrutura de Dados I
-- Banco de Dados
+-Banco de Dados
 
 - ## 🏫 Informações Acadêmicas
 
 - Universidade: **Universidade Braz Cubas**
 - Curso: **Ciência da Computação**
-- Semestre: 3º Semestre/2ºSemestre
+- Semestre: 3º Semestre/ 2º Semestre
 - Período: Noite
 - Professora orientadora: **Dra. Andréa Ono Sakai**
 - Evento: **Mostra de Tecnologia 1º Semestre de 2025**
 - Local: Laboratório 12
 - Datas: 05 e 06 de junho de 2025
 
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE).
