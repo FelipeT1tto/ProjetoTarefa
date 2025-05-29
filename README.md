@@ -102,7 +102,7 @@ Siga os passos abaixo para configurar e executar o LifeFlow em seu ambiente loca
 5.  **Acesse o aplicativo:**
     Abra seu navegador e acesse `http://127.0.0.1:5000/`.
 
-    **Faça o login**
+    **Faça o login/registro**
 
     ![Tela de login](https://github.com/FelipeT1tto/ProjetoTarefa/blob/main/foto1.PNG?raw=true)
 
