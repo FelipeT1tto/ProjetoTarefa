@@ -100,7 +100,7 @@ Siga os passos abaixo para configurar e executar o LifeFlow em seu ambiente loca
     ```
 
 5.  **Acesse o aplicativo:**
-    Abra seu navegador e acesse `http://127.0.0.1:5000/`.
+    Rode o programa run.py e acesse Local Host `http://127.0.0.1:5000/`.
 
     **Faça o login/registro**
 
